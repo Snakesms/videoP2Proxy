@@ -27,4 +27,9 @@ WORKDIR /code
 
 RUN sh autogen.sh && make -j`nproc --all` && make install
 
-CMD ["video2proxy"]
+# CMD ["video2proxy"]
+# run code
+CMD videop2proxy --ip $IP --token $TOKEN --rtsp 8554
+
+# expose port
+EXPOSE 8554
