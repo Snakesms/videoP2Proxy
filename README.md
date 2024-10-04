@@ -34,6 +34,7 @@ cd videoP2Proxy
 make
 sudo make install
 ```
+[![Create and publish a Docker image](https://github.com/Snakesms/videoP2Proxy/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/Snakesms/videoP2Proxy/actions/workflows/build-and-publish.yml)
 
 ##### Run the RTSP proxy
 ```
