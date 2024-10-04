@@ -19,7 +19,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 RUN python3 -m pip install --upgrade pip
 
 # Install python-miio
-RUN pip3 install python-miio
+RUN pip install python-miio==0.6.0.dev0
 
 COPY . /code
 
